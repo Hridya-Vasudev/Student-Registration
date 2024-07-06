@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Profile</h2>
+<p>Name: {{ student.name }}</p>
+<p>Enquiry No: {{ student.enquiry_no }}</p>
+<p>Enquiry Date: {{ student.enquiry_date }}</p>
+<p>Gender: {{ student.gender }}</p>
+<p>Qualification: {{ student.qualification }}</p>
+<p>Address: {{ student.address }}</p>
+<p>College: {{ student.college }}</p>
+<p>Contact No: {{ student.contact_no }}</p>
+<p>WhatsApp No: {{ student.whatsapp_no }}</p>
+<p>Date of Birth: {{ student.dob }}</p>
+<p>Has Work Experience: {{ student.has_work_experience }}</p>
+{% endblock %}
